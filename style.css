@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    /* border: 2px solid black; */
+    width: 100%;
+    height: 150px;
+    color: azure;
+    /* font-family:'Open Sans', sans-serif; */
+    /* background-color:#213875; */
+    padding-left: 230px;
+    padding-top:36px ;
+    font-family: 'Arial', 'Helvetica', sans-serif; /* Adjust to match the actual font */
+    font-size: 2rem; /* Adjust font size for emphasis */
+    background-color: #1b3b71; /* Dark blue background */
+}
+.Browsejobs{
+    display: grid;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+.jobcard{
+    border: 2px solid black;
+    padding: 10px;
+    margin: 52px;
+    width: 482px;
+    height: 589px;
+    box-shadow: 0 4px 8px rgba(9, 6, 6, 0.1);
+    
+ }
+ #more {
+    display: none;
+}
